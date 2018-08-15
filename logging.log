@@ -910,3 +910,135 @@
 2018-08-13 12:24:35 INFO  MainPageSearch:66 - Click search button
 2018-08-13 12:24:39 INFO  SearchPageResults:37 - Check the results of search for the brand and mark car
 2018-08-13 12:24:40 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:44:01 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:44:02 INFO  MainPageSearch:66 - Select car brand
+2018-08-13 14:44:02 INFO  MainPageSearch:66 - Select car model
+2018-08-13 14:44:02 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:44:06 INFO  SearchPageResults:37 - Check the results of search for the brand and mark car
+2018-08-13 14:44:07 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:44:13 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:44:13 INFO  MainPageSearch:66 - Select car brand
+2018-08-13 14:44:14 INFO  MainPageSearch:66 - Select car model
+2018-08-13 14:44:14 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:44:18 INFO  SearchPageResults:37 - Check the results of search for the brand and mark car
+2018-08-13 14:44:19 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:44:25 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:44:25 INFO  MainPageSearch:66 - Select car brand
+2018-08-13 14:44:25 INFO  MainPageSearch:66 - Select car model
+2018-08-13 14:44:26 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:44:30 INFO  SearchPageResults:37 - Check the results of search for the brand and mark car
+2018-08-13 14:44:31 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:44:36 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:44:36 INFO  MainPageSearch:66 - Select price from
+2018-08-13 14:44:36 INFO  MainPageSearch:66 - Select price to
+2018-08-13 14:44:36 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:44:40 INFO  SearchPageResults:37 - Check the results of search for the price
+2018-08-13 14:44:41 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:44:47 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:44:47 INFO  MainPageSearch:66 - Select price from
+2018-08-13 14:44:47 INFO  MainPageSearch:66 - Select price to
+2018-08-13 14:44:47 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:44:51 INFO  SearchPageResults:37 - Check the results of search for the price
+2018-08-13 14:44:52 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:44:58 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:44:58 INFO  MainPageSearch:66 - Select price from
+2018-08-13 14:44:58 INFO  MainPageSearch:66 - Select price to
+2018-08-13 14:44:58 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:45:01 INFO  SearchPageResults:37 - Check the results of search for the price
+2018-08-13 14:45:02 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:45:08 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:45:08 INFO  MainPageSearch:66 - Select region
+2018-08-13 14:45:08 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:45:12 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-13 14:45:12 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-13 14:45:13 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:45:19 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:45:19 INFO  MainPageSearch:66 - Select region
+2018-08-13 14:45:19 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:45:22 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-13 14:45:22 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-13 14:45:24 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:45:29 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:45:30 INFO  MainPageSearch:66 - Select region
+2018-08-13 14:45:30 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:45:34 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-13 14:45:35 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:45:40 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:45:40 INFO  MainPageSearch:66 - Select year from
+2018-08-13 14:45:41 INFO  MainPageSearch:66 - Select year to
+2018-08-13 14:45:41 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:45:44 INFO  SearchPageResults:37 - Check the results of search for the year
+2018-08-13 14:45:45 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-13 14:45:51 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-13 14:45:52 INFO  MainPageSearch:66 - Select year from
+2018-08-13 14:45:52 INFO  MainPageSearch:66 - Select year to
+2018-08-13 14:45:52 INFO  MainPageSearch:66 - Click search button
+2018-08-13 14:45:55 INFO  SearchPageResults:37 - Check the results of search for the year
+2018-08-15 14:13:10 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:13:11 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:13:11 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:13:15 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:13:15 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:13:16 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:13:22 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:13:23 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:13:23 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:13:26 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:13:26 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:13:27 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:13:34 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:13:34 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:13:34 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:13:49 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:13:49 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:13:50 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:14:43 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:14:44 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:14:44 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:14:47 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:14:47 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:14:48 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:14:54 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:14:55 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:14:55 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:14:58 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:14:58 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:15:00 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:15:06 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:15:06 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:15:06 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:15:10 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:15:10 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:15:11 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:16:35 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:16:36 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:16:36 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:16:40 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:16:40 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:16:47 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:16:47 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:16:47 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:16:51 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:16:51 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:16:53 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:16:59 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:16:59 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:16:59 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:17:03 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:17:03 INFO  ConfigForTests:24 - Screenshot have been added to Allure Report.
+2018-08-15 14:17:04 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:18:14 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:18:15 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:18:15 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:18:18 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:18:19 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:18:25 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:18:25 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:18:25 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:18:30 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:18:31 INFO  ConfigForTests:24 - Close Auto Ria
+2018-08-15 14:18:37 INFO  ConfigForTests:24 -  Launch Auto Ria page
+2018-08-15 14:18:37 INFO  MainPageSearch:66 - Select region
+2018-08-15 14:18:37 INFO  MainPageSearch:66 - Click search button
+2018-08-15 14:18:40 INFO  SearchPageResults:37 - Check the results of search for the region
+2018-08-15 14:18:41 INFO  ConfigForTests:24 - Close Auto Ria

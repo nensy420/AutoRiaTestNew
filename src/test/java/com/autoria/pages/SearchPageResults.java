@@ -54,12 +54,12 @@ public class SearchPageResults {
         return result;
     }
 
-    public boolean getResultsOfSearchRegion(String regionName) {
+    public boolean getResultsOfSearchRegion(String listOfCitiesNames) {
         List<WebElement> listOfResults = resultRegion;
         boolean result = false;
         for (WebElement elm : listOfResults) {
             waitToBeClickable(elm);
-            result = elm.getText().trim().equalsIgnoreCase(regionName);
+            result = listOfCitiesNames.contains(elm.getText());
             if (!result) break;
         }
         logToAllure("Check the results of search for the region");
