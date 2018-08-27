@@ -26,7 +26,7 @@ public class SearchTests extends ConfigForTests {
     }
 
     @Test(dataProvider = "dataForSearchRegion", dataProviderClass = DataForSearchTests.class)
-    public void regionTest(String regionName,String listOfCitis) {
+    public void regionTest(String regionName, String listOfCitis) {
         MainPageSearch mainPageSearch = new MainPageSearch(getDriver());
         SearchPageResults searchPageResults = mainPageSearch.searchRegion(regionName);
         Assert.assertTrue(searchPageResults.getResultsOfSearchRegion(listOfCitis), "The result of search for the region are not valid");

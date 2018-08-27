@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 import static com.autoria.config.DriverManager.getDriver;
+import static com.autoria.tools.Actions.getInnerHtml;
 import static com.autoria.tools.Waiters.waitToBeClickable;
 
 public class MainPageSearch {
@@ -84,7 +85,7 @@ public class MainPageSearch {
         waitToBeClickable(brandCarField).click();
         List<WebElement> listBrandCar = brandCarList;
         for (WebElement elm : listBrandCar) {
-            String dataValue = elm.getAttribute("innerHTML");
+            String dataValue = getInnerHtml(elm);
             if (dataValue.contains(nameBrandCar)) {
                 waitToBeClickable(elm).click();
                 logToAllure("Select car brand");
@@ -97,7 +98,7 @@ public class MainPageSearch {
         waitToBeClickable(modelCarField).click();
         List<WebElement> listModelCar = modelCarList;
         for (WebElement elm : listModelCar) {
-            String dataValue = elm.getAttribute("innerHTML");
+            String dataValue = getInnerHtml(elm);
             if (dataValue.contains(nameModelCar)) {
                 waitToBeClickable(elm).click();
                 logToAllure("Select car model");
@@ -118,7 +119,7 @@ public class MainPageSearch {
         waitToBeClickable(regionField).click();
         List<WebElement> listRegions = regionList;
         for (WebElement elm : listRegions) {
-            String dataValue = elm.getAttribute("innerHTML");
+            String dataValue = getInnerHtml(elm);
             if (dataValue.contains(nameRegion)) {
                 waitToBeClickable(elm).click();
                 logToAllure("Select region");

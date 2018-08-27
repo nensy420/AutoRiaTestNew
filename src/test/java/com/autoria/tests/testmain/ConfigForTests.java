@@ -12,7 +12,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import static com.autoria.config.ConfigForProperties.getUrl;
-import static com.autoria.config.DriverManager.*;
+import static com.autoria.config.DriverManager.getDriver;
+import static com.autoria.config.DriverManager.quitDriver;
 
 
 public class ConfigForTests {

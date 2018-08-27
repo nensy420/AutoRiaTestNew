@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import static com.autoria.tools.Actions.getInnerHtml;
 import static com.autoria.tools.Waiters.waitToBeClickable;
 
 public class MainPageLogin {
@@ -37,16 +38,20 @@ public class MainPageLogin {
     @FindBy(xpath = "//form[@id='login-form']/child::div[@class='login-rows']//p[@class='error']")
     private WebElement fieldAttantion;
 
+    @FindBy(xpath = "//div[@id='gdprId']//following-sibling::label/span[@class='mhide']")
+    private WebElement newWindow;
+
+
     private static final Logger log = LogManager.getLogger(MainPageLogin.class);
 
     private void clickOnEnterAndSwitchToFrame() {
         waitToBeClickable(enterTo).click();
         logToAllure("Click on login link");
-        driver.switchTo().frame("login_frame");
-        logToAllure("Switch to frame");
     }
 
     private void clickOnRegister() {
+        driver.switchTo().frame("login_frame");
+        logToAllure("Switch to frame");
         waitToBeClickable(registerLink).click();
         logToAllure("Click on registration link");
     }
@@ -73,13 +78,18 @@ public class MainPageLogin {
 
     public void registration(String number) {
         clickOnEnterAndSwitchToFrame();
-        clickOnRegister();
+        if (newWindow.isDisplayed()) {
+            waitToBeClickable(newWindow).click();
+            clickOnRegister();
+        } else {
+            clickOnRegister();
+        }
         inputTelephone(number);
         clickOnContinueButton();
     }
 
     public String getErrorMessageRegistration() {
-        String attantionMessage = fieldAttantion.getAttribute("innerHTML");
+        String attantionMessage = getInnerHtml(fieldAttantion);
         logToAllure(" Get the message");
         return attantionMessage;
     }
