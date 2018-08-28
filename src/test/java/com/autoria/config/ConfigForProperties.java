@@ -1,7 +1,12 @@
 package com.autoria.config;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Properties;
+
+import static com.autoria.config.DriverType.CHROME;
 
 public class ConfigForProperties {
 
@@ -26,13 +31,13 @@ public class ConfigForProperties {
     public static String getDriverPath() {
         String driverPath = null;
         switch (getBrowser()) {
-            case "chrome":
+            case CHROME:
                 driverPath = props.getProperty("chromeDriverPath");
                 break;
-            case "firefox":
+            case FIREFOX:
                 driverPath = props.getProperty("firefoxDriverPath");
                 break;
-            case "IE":
+            case IE:
                 driverPath = props.getProperty("IEDriverPath");
                 break;
         }
@@ -53,9 +58,13 @@ public class ConfigForProperties {
         }
     }
 
-    public static String getBrowser() {
-       String browser = props.getProperty("browser");
-        return browser;
+    public static DriverType getBrowser() {
+        String browserName = props.getProperty("browser");
+        if (browserName == null || browserName.equals("chrome")) return CHROME;
+        else if (browserName.equalsIgnoreCase("firefox")) return DriverType.FIREFOX;
+        else if (browserName.equals("iexplorer")) return DriverType.IE;
+        else
+            throw new RuntimeException("Browser Name Key value in Configuration.properties is not matched : " + browserName);
     }
 
 }

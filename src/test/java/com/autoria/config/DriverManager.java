@@ -16,15 +16,15 @@ public class DriverManager {
         if (driver == null) {
             switch (ConfigForProperties.getBrowser()) {
 
-                case "firefox":
+                case FIREFOX:
                     System.setProperty("webdriver.gecko.driver", ConfigForProperties.getDriverPath());
                     driver = new FirefoxDriver();
                     break;
-                case "IE":
+                case IE:
                     System.setProperty("webdriver.ie.driver", ConfigForProperties.getDriverPath());
                     driver = new InternetExplorerDriver();
                     break;
-                case "chrome":
+                case CHROME:
                     System.setProperty("webdriver.chrome.driver", ConfigForProperties.getDriverPath());
                     driver = new ChromeDriver();
                     break;
